@@ -56,7 +56,7 @@ const getScoreForGame = (game) => pointsForResult[strategyOutcomes[game]] + poin
 const getScoreForGameWithKnownResult = (game) => pointsForResult[strategyOutcomesForKnownResult[game]] 
                                                         + pointsForChoice[pickForResult[game]];
 
-const strategiesInput = readFileSync("day2.txt", 'utf-8')
+const strategiesInput = readFileSync("2022/day2.txt", 'utf-8')
                             .split(/\r?\n/);
 
 const strategyScoreTotal = strategiesInput

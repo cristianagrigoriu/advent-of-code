@@ -1,6 +1,6 @@
 import {readFileSync} from 'fs';
 
-const caloriesInput = readFileSync("day1.txt", 'utf-8')
+const caloriesInput = readFileSync("2022/day1.txt", 'utf-8')
                             .split(/\r?\n/);
 var firstCalorieForOnePersonIndex = 0;
 var maxAmountOfCalories = -Infinity;
